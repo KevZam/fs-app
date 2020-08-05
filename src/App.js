@@ -6,6 +6,8 @@ import NewPlace from './places/pages/NewPlace';
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import UserPlaces from './places/pages/UserPlaces';
 
+require('dotenv').config();
+
 const App = () => {
   return <Router>
     <MainNavigation />
