@@ -4,7 +4,6 @@ import Modal from './Modal';
 import Button from '../FormElements/Button';
 
 const ErrorModal = props => {
-  console.log(props)
   return (
     <Modal
       onCancel={props.onClear}
